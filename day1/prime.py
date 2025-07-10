@@ -1,6 +1,7 @@
 def is_prime(n):
     if n == 1:
-        return ("not prime not composite")
+        print ("not prime not composite")
+        return
     if n == 2:
         print("prime")
         return 
